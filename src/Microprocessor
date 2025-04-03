@@ -1,0 +1,88 @@
+
+😨😨Microprocessor:
+  Microprocessor is a device which has more feature that CPU,we can say
+  CPU is a part of microprocessor and Microprocessor acts as a whole,hence
+  it is proved that:
+
+  ✨Microprocessor  has the feature like CPU with some extra functionality,
+  everywhere even the device on which you are reading this post has microprocessor,
+  From simple TV remote , traffic lights to Computer System has the microprocessor.
+  Their size and capacity ranges depending upon the nature of device on which they are
+  working.We can say, remote has microprocessor of low capacity but a computer system has 
+  a dedicated high speed microprocessor.
+  🎯 Microprocessor has its own ALU,Registers and logical unit along with some other essential
+  components, which work together and produces the result, just like a CPU can do.
+  
+History:
+  In th earlier times, the size of CPU was just about a room or even more, but with 
+  the passage of time , the size is decreased to Vaccum Tubes, and in the current 
+  era, the size is just  as Single Chip(),which is embedd in Integrated Chip(IC),
+
+Transister:
+ Wait? we were talking about microprocessor but why we are learning Transisotors?.
+ As we know that computer and microelectronics accepts data  in the binary format,whenever
+ you see a switch, have you noticed your mobile phone's charge has two points,actually,
+ one of them captures flow of positive charges from each socket and rest one captures the
+ negative charges from another socket,
+ ✨Positive Charge has 1 digit.
+ ✨Negative Charge has 0 digit.
+ These are called Binary Digits.
+🎯CPU accepts data in binary format, as input through the buses,are the pathways through which data and instructions flows from one point to another point, from CPU to Memory(?),processes it and then
+ produces the output.
+
+ Working of Transistors:
+ Transistors switches between the voltages, from higher potential(positive charge) to lower potential (negative charge), this single switching produces the results like:
+ 01010101
+ negative,positive,negative,positive,negative,positive.
+If we have a CPU of 8bits, then it produces 8 bits at each
+interval  just like 01010101(depending upon the nature of data).
+🎯Higher number transistor results to higher binary swtiching which automatically producess high number of  binary zeroes and ones,and at the end CPU peroformance increases.
+❓General information:
+When an event is performed on windows(like we've clicked on any  Video in file Explorer),
+the OS(windows), sends the instructions to CPU, the CPU works on Fetch, Decode Execute method which entirly covers the steps upto the execuation of task,we're discussing Fetch method,
+There are three buses between CPU to Primary Memory:
+✨Address Bus,carries the address of data on which CPU has to be worked, we can say, it is only limited of sending Addresses of Data  from CPU to RAM,
+✨Data Bus,carries the data  present at the requested address and sends it to CPU for execuation,after execution  the data is reflected back to RAM and then to Secondary Storage,for permanent storage.
+✨Control Bus,as the actual instructions related to operation which has to be performed on the data.Control Bus tells the CPU, what it has to do.(YE CPU ko btata hay ky tumhain data ky sath kia krna hay.)
+As the CPU receives the instructions, it sends the request for data to Primary Memory(RAM),
+through the Address Bus,has the address of corresponding data,soon after selection of respected data from RAM, now the data flows through the data bus from source to destination,RAM to CPU,data bus provides two way pathway,it means data can be transferred from CPU to RAM as well as flows from RAM to CPU.(But this fact is not for Address Bus,address bus provides one way pathway, only the instructions can be passed from CPU to RAM, not from RAM to CPU),after selection of data with respect to its address , the data is transferred through the same pathway to CPU, where further execution happens,soon after execution information is returned to Secondary Memory.
+
+
+
+
+
+
+
+
+
+
+Issues:
+Home Page
+..Hero Section(Image) is losing its actual width/height till 638px
+..How Intro Section must be added.at exact position
+..hover krain to card bry bhi hoo aur button bhi show kary
+..How to  round the border of naoptions'line(Header:navoptions)
+..Incase of sidebar I want sidebar should be hidden whenver I click anywhere on the screen
+..how to manage padding for emergency element
+..how to add Circles in the about us section of homepage
+..Addition of Testinomial Library
+..Addition of Payment Option. Library
+..Location ko thek krna hay
+About Us;
+..About CSS(Itemcss : 470px(box,glat behave kr raha hay))
+..Hover(Team Component, bndy ki details aa jain)
+
+Services:
+..ourservices(flex-grow ka issue max:510px,each box)
+..Qnas Arrow(Queries Component)
+
+Contact Us:
+..Form(Validation lagani hay,aj hi simple wali validation seekhni hay)
+
+Book Now: 
+Gap between locaiton and component why this 
+
+blog:
+ Hero Section(Not REsponsive)..
+
+how to define a range between min and max width (from 1250 to 1264px)//min-[1250px] max-[1264px]

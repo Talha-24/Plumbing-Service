@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:wght@358&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:wght@358&display=swap');
+@import "tailwindcss";
+
+
+
+
+body{
+     font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 358;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.app{
+    height: 100%;
+    width: 100%;
+}
+#menuicon {
+    position: absolute;
+    left: 2%;
+    font-size: 34px;
+    color: white;
+    font-weight: bold;
+    display: none;
+    margin-bottom: 5px;
+    z-index: 10;
+}
+
+
+.navoptions{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 358;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    }
+@media (max-width:1158px) {
+    .navoptions {
+        display: none;
+    }
+
+    #menuicon {
+        display: inline-block;
+    }
+
+}
+#intro{
+    background-color: #0056A699;
+    opacity: 0.555;
+}
+
+@media (max-width: 770px) {
+    .socials {
+        display: none;
+    }
+
+    .socialparent {
+        gap: 10px;
+    }
+
+}
+
+
+@media (min-width: 767) {
+    .navbar {
+        padding: 15px 65px;
+    }
+
+}
+.navbutton{
+    font-weight: 500;
+}
+
+
+@media (max-width: 370px) {
+    .navbutton {
+        font-size: 12px;
+
+    }
+
+    .navlogo {
+        width: 144px;
+    }
+
+    .navicon {
+        height: 25px;
+    }
+
+}
+
+#arrowbtn {
+    width: 45px;
+    background-color: #FFC107;
+    height: 25px;
+    padding: 2px 0;
+    color: white;
+    border-radius: 10px;
+}
+
+#mainimage {
+    background-color: blue;
+    height: 60vh;
+    width: 100%;
+    background-image: url('/src//assets/Images/image\ 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#gradient{
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    z-index: 2;
+}
